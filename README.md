@@ -1,6 +1,6 @@
-# 📝 To-do App com Angular e .NET
+# 📝 To-do App com Angular e Springboot
 
-Uma aplicação simples de controle de tarefas, construída com Angular no front-end e ASP.NET Core Web API no back-end.
+Uma aplicação simples de controle de tarefas, construída com Angular no front-end e Springboot no back-end.
 
 ---
 
@@ -8,7 +8,6 @@ Uma aplicação simples de controle de tarefas, construída com Angular no front
 
 Este projeto tem como objetivo servir como base de aprendizado para quem está começando com:
 - Angular no front-end
-- .NET (ASP.NET Core) no back-end
 - Integração entre front-end e back-end usando APIs REST
 
 ---
@@ -16,9 +15,7 @@ Este projeto tem como objetivo servir como base de aprendizado para quem está c
 ## 🚀 Tecnologias Utilizadas
 
 ### Back-end
-- ASP.NET Core Web API (.NET 6 ou 8)
-- Entity Framework Core
-- SQLite ou banco InMemory (opcional)
+- Springboot
 
 ### Front-end
 - Angular 16+ (CLI)
@@ -44,7 +41,4 @@ Este projeto tem como objetivo servir como base de aprendizado para quem está c
 git clone https://github.com/seu-usuario/todo-app.git
 cd todo-app/TodoApi
 
-# Restaurar pacotes e rodar
-dotnet restore
-dotnet run
 

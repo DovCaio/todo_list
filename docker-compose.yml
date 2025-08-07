@@ -1,0 +1,14 @@
+services:
+  dev-db:
+    image: postgres:13
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: todo
+      POSTGRES_PASSWORD: todopass
+      POSTGRES_DB: todo_db
+    networks:
+      - todo-network
+
+networks:
+  todo-network:
